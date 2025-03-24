@@ -24,11 +24,11 @@ git clone https://github.com/haimkru/NanoporeLong5.git
 
 **First we run the script for installing everything**
 
-sh /media/data2/hkrupkin/code/nanopore_related/Custom_code/Single_Script_all_DragonRNA_analysis_up_to_plotting/All_scripts_for_github_upload/installation.sh
+**sh /media/data2/hkrupkin/code/nanopore_related/Custom_code/Single_Script_all_DragonRNA_analysis_up_to_plotting/All_scripts_for_github_upload/installation.sh**
 
 **Then to run you do:**
 
-bash From_fastq_pod5_predict_DragonRNA_for_github.sh  <input.fastq> <input.pod5> <output_directory> <N_threads> <directory_of_scripts>"
+**bash From_fastq_pod5_predict_DragonRNA_for_github.sh  <input.fastq> <input.pod5> <output_directory> <N_threads> <directory_of_scripts>"**
 
 input fastq= Fastq file with the reads we want to process
 
