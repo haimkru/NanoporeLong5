@@ -9,7 +9,7 @@ Script takes Fastq file and POD5 (all reads in fastq need to be in POD5 data), c
 
 **git install**
 
-wget 
+git clone https://github.com/haimkru/NanoporeLong5.git
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -22,6 +22,8 @@ wget
   
 4. Creates alot of temporary files, in reallity only file that is needed is the final file : combined_merged_signal_fastq_sequences_ready.long5, feel free to delete all the temporary files as they are mainly for QC in case there are problems mid run.
 
+5. You need to run the installtion Command only once
+
 **First we run the script for installing everything**
 
 sh /media/data2/hkrupkin/code/nanopore_related/Custom_code/Single_Script_all_DragonRNA_analysis_up_to_plotting/All_scripts_for_github_upload/installation.sh
@@ -29,6 +31,16 @@ sh /media/data2/hkrupkin/code/nanopore_related/Custom_code/Single_Script_all_Dra
 **Then to run you do:**
 
 bash From_fastq_pod5_predict_DragonRNA_for_github.sh  <input.fastq> <input.pod5> <output_directory> <N_threads> <directory_of_scripts>"
+
+input fastq= Fastq file with the reads we want to process
+
+input pod5 = POD5 file that cotnains all the reads from Fastq
+
+output directory = The directory we want our long5 and temporary files will be the output
+
+N_threads = Number of threads for running our long5 convertor
+
+directory_of_scripts = The directory in which we installed NanoporeLong5 scripts 
 
 **For Example:**
 
