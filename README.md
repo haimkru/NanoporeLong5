@@ -3,8 +3,9 @@ Script takes Fastq file and POD5 (all reads in fastq need to be in POD5 data), c
 
 The Slow5-Dorado script has a "Oxford Nanopore Technologies PLC. Public License Version 1.0", you must adhere to this license as well, thus, this script "NanoporeLong5" can only be used for research purposes
 
-**Install:**
+----------------------------------------------------------------------------------------------------------------------------------------------
 
+****Install:****
 
 **First We Install blue-crab**
 
@@ -40,8 +41,12 @@ cd squigualiser
 
 ./squigualiser --help
 
+
 ***Then we create the needed conda environments**
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+**To Run Program**
 
 
