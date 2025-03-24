@@ -78,11 +78,7 @@ N_threads = Number of threads for running our long5 convertor
 
 directory_of_scripts = The directory in which we installed NanoporeLong5 scripts 
 
-----------------------------------------------------------------------------------------------------------------------------------------------
 
-**Example plotting in R is found in the Rscript file: example_plotting_a_single_read.R**
-
-----------------------------------------------------------------------------------------------------------------------------------------------
 
 
 **For Example:**
@@ -90,7 +86,11 @@ directory_of_scripts = The directory in which we installed NanoporeLong5 scripts
 bash /media/data2/hkrupkin/code/nanopore_related/Custom_code/Single_Script_all_RNA_analysis_up_to_plotting/All_scripts_for_github_upload/From_fastq_pod5_predict_RNA_for_github.sh /media/data2/hkrupkin/nanopore/detecting_RNA/My_own_nanopore_run/sequencing_run_nanopore/all_fastq_files_uncompressed_top100_reads.fastq /media/data2/hkrupkin/nanopore/detecting_RNA/My_own_nanopore_run/sequencing_run_nanopore/pod_5_files_all/all_pod5_files/merged.pod5 /media/data2/hkrupkin/code/nanopore_related/Custom_code/Single_Script_all_RNA_analysis_up_to_plotting/Finding_RNAs_by_Kmer/Test_run_examination_entire_file_v5_100_reads 20 /media/data2/hkrupkin/code/nanopore_related/Custom_code/Single_Script_all_RNA_analysis_up_to_plotting/All_scripts_for_github_upload
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------
 
+**Example plotting in R is found in the Rscript file: example_plotting_a_single_read.R**
+
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 **for problems with code please feel free to either leave an issue request in the github page, or email me at hkrupkin@stanford.edu**
 
