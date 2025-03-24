@@ -24,6 +24,7 @@ cd slow5-dorado/bin
 ./slow5-dorado --version
 
 **we also need to install the correct slow5 dorado model, currently its set to the RNA model for RNA004**
+
 But this code can be changed, to another model, just download the other model, and in the file From_fastq_pod5_predict_DragonRNA_for_github.sh change the row 63 the model used to the correct model
 
 
@@ -39,7 +40,7 @@ cd squigualiser
 
 ./squigualiser --help
 
-
+***Then we create the needed conda environments**
 
 
 
