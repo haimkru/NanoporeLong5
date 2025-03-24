@@ -1,12 +1,7 @@
 # NanoporeLong5
 Script takes Fastq file and POD5 (all reads in fastq need to be in POD5 data), combinning the data from both, and creates a long5 file with signal, dwell time, nucleotides, phred score, PolyA classification.  The data format is such that each point of signal from the nanopore is a diffrent row, in pA units.
 
-
-
-
-
-
-The Slow5-Dorado script has a "Oxford Nanopore Technologies PLC. Public License Version 1.0", you must adhere to this license as well, thus, this script "NanoporeLong5" can only be used for research purposes
+*The Slow5-Dorado script has a "Oxford Nanopore Technologies PLC. Public License Version 1.0", you must adhere to this license as well.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -27,7 +22,7 @@ wget
   
 4. Creates alot of temporary files, in reallity only file that is needed is the final file : combined_merged_signal_fastq_sequences_ready.long5, feel free to delete all the temporary files as they are mainly for QC in case there are problems mid run.
 
-**first we run the script for installing everything**
+**First we run the script for installing everything**
 
 sh /media/data2/hkrupkin/code/nanopore_related/Custom_code/Single_Script_all_DragonRNA_analysis_up_to_plotting/All_scripts_for_github_upload/installation.sh
 
