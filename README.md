@@ -3,7 +3,11 @@ Script takes Fastq file and POD5 (all reads in fastq need to be in POD5 data), c
 
 **The actual file you want to use for analyses is named: combined_merged_signal_fastq_sequences_ready.long5**
 
-Format of the file:
+
+*The Slow5-Dorado script has a "Oxford Nanopore Technologies PLC. Public License Version 1.0", you must adhere to this license as well.
+
+
+**Format of the file:**
 
 sequence_name= read name
 
@@ -26,7 +30,6 @@ sequence_type_plotted= what is the region type, it is assuming its RNA after Pol
 
 
 
-*The Slow5-Dorado script has a "Oxford Nanopore Technologies PLC. Public License Version 1.0", you must adhere to this license as well.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
