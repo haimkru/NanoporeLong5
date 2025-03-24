@@ -56,9 +56,7 @@ sh installation.sh
 **Notes For Running**
 1. Less reads = Will run faster
   
-2. If POD5 file contains less reads = Runs faster, as re-basecalling is performed on the entire POD5 file. but! we nonetheless filter our reads so its not a big diffrence
-  
-3. Script creates alot of temporary files, in reallity only file that is needed is the final file : combined_merged_signal_fastq_sequences_ready.long5, feel free to delete all the temporary files as they are mainly for QC incase there are problems mid run.
+2. Script creates alot of temporary files, in reallity only file that is needed is the final file : combined_merged_signal_fastq_sequences_ready.long5, feel free to delete all the temporary files as they are mainly for QC incase there are problems mid run.
 
 
 
