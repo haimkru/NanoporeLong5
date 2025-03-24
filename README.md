@@ -7,14 +7,37 @@ The Slow5-Dorado script has a "Oxford Nanopore Technologies PLC. Public License 
 
 
 **First We Install blue-crab**
+
 pip install blue-crab
+
 blue-crab --help
 
+
 **Then we Install slow5 dorado**
-wget https://github.com/hiruna72/slow5-dorado/releases/download/v0.8.2/slow5-dorado-v0.8.2-x86_64-linux.tar.gz -O slow5-dorado.tar.gz
-tar xf slow5-dorado.tar.gz
+
+wget https://github.com/hiruna72/slow5-dorado/releases/download/v0.8.3/slow5-dorado-v0.8.3-x86_64-linux.tar.xz -O slow5-dorado.tar.xz
+
+tar xf slow5-dorado.tar.xz
+
 cd slow5-dorado/bin
+
 ./slow5-dorado --version
+
+**we also need to install the correct slow5 dorado model, currently its set to the RNA model for RNA004**
+But this code can be changed, to another model, just download the other model, and in the file From_fastq_pod5_predict_DragonRNA_for_github.sh change the row 63 the model used to the correct model
+
+
+./slow5-dorado download --model rna004_130bps_sup@v3.0.1
+
+**Then we Install squigualiser**
+
+wget https://github.com/hiruna72/squigualiser/releases/download/v0.6.3/squigualiser-v0.6.3-linux-x86-64-binaries.tar.gz -O squigualiser.tar.gz
+
+tar xf squigualiser.tar.gz
+
+cd squigualiser
+
+./squigualiser --help
 
 
 
