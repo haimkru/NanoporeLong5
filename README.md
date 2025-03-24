@@ -11,6 +11,10 @@ git clone https://github.com/haimkru/NanoporeLong5.git
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
+
+
+
+
 **To Run Program**
 
 **Notes For Running**
@@ -23,13 +27,17 @@ git clone https://github.com/haimkru/NanoporeLong5.git
 5. You need to run the installtion Command only once, it might request permissions to download packages such as Rscript, please do y to permit the installation of the dependencies
 
 
+
 **First we run the script for installing everything**
 
 **sh installation.sh**
 
+
 **Then to run you do:**
 
 **bash From_fastq_pod5_predict_DragonRNA_for_github.sh  <input.fastq> <input.pod5> <output_directory> <N_threads> <directory_of_scripts>"**
+
+
 
 input fastq= Fastq file with the reads we want to process
 
@@ -40,6 +48,10 @@ output directory = The directory we want our long5 and temporary files will be t
 N_threads = Number of threads for running our long5 convertor
 
 directory_of_scripts = The directory in which we installed NanoporeLong5 scripts 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
 
 **For Example:**
 
