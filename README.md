@@ -86,6 +86,7 @@ bash /media/data2/hkrupkin/code/nanopore_related/Custom_code/Single_Script_all_R
 
 
 
+**for problems with code please feel free to either leave an issue request in the github page, or email me at hkrupkin@stanford.edu**
 
 
 
