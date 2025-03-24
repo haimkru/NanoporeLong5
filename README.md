@@ -7,8 +7,6 @@ Script takes Fastq file and POD5 (all reads in fastq need to be in POD5 data), c
 
 ****Install:****
 
-**git install**
-
 git clone https://github.com/haimkru/NanoporeLong5.git
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
