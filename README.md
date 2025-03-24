@@ -4,14 +4,23 @@ Script takes Fastq file and POD5 (all reads in fastq need to be in POD5 data), c
 **The actual file you want to use for analyses is named: combined_merged_signal_fastq_sequences_ready.long5**
 
 Format of the file:
+
 sequence_name= read name
+
 nucleotide_index = nucleotide index in fastq if it was read 5'->3'
+
 phred_score=nucleotide phred score as its in the fastq
+
 dwell_time = dwell time for the nucleotide
+
 time = time measurment for the signal, ie 0 being the start of reading the read through the nanopore.
+
 signal= signal in pA
+
 signal_index = index of the signal measurment
+
 plotted_nucleotide = nucleotide index in the fastq if it was read 5' -> 3'
+
 sequence_type_plotted= what is the region type, it is assuming its RNA after PolyA
 
 
