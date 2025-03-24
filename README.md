@@ -9,6 +9,10 @@ Script takes Fastq file and POD5 (all reads in fastq need to be in POD5 data), c
 
 git clone https://github.com/haimkru/NanoporeLong5.git
 
+cd NanoporeLong5
+
+tar -xvf NanoporeLong5.tar
+
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
