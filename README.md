@@ -49,4 +49,11 @@ cd squigualiser
 
 **To Run Program**
 
+#first we initialise our conda environments so this needs to be run only once
+
+conda env create -f basic_env_python3.8_environment.yml
+
+conda env create -f python3.7_for_github.yml
+
+
 
