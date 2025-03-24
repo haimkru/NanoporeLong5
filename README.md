@@ -70,7 +70,7 @@ input fastq= Fastq file with the reads we want to process
 
 input pod5 = POD5 file that cotnains all the reads from Fastq
 
-output directory = The directory we want our long5 and temporary files will be the output
+output directory = The output directory for our long5 and temporary files 
 
 N_threads = Number of threads for running our long5 convertor
 
