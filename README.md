@@ -13,6 +13,9 @@ cd NanoporeLong5
 
 tar -xvf NanoporeLong5.tar
 
+sh installation.sh
+
+
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -29,12 +32,6 @@ tar -xvf NanoporeLong5.tar
 3. Script creates alot of temporary files, in reallity only file that is needed is the final file : combined_merged_signal_fastq_sequences_ready.long5, feel free to delete all the temporary files as they are mainly for QC incase there are problems mid run.
 
 4. You need to run the installtion Command only once, it might request permissions to download packages such as Rscript, please do y to permit the installation of the dependencies
-
-
-
-**First we run the script for installing everything**
-
-**sh installation.sh**
 
 
 **Then to run you do:**
