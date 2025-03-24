@@ -78,6 +78,8 @@ N_threads = Number of threads for running our long5 convertor
 
 directory_of_scripts = The directory in which we installed NanoporeLong5 scripts 
 
+----------------------------------------------------------------------------------------------------------------------------------------------
+
 **Example plotting in R is found in the Rscript file: example_plotting_a_single_read.R**
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
