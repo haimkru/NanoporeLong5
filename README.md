@@ -24,7 +24,7 @@ git clone https://github.com/haimkru/NanoporeLong5.git
 
 **First we run the script for installing everything**
 
-**sh /media/data2/hkrupkin/code/nanopore_related/Custom_code/Single_Script_all_DragonRNA_analysis_up_to_plotting/All_scripts_for_github_upload/installation.sh**
+**sh installation.sh**
 
 **Then to run you do:**
 
