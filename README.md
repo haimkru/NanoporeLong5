@@ -36,7 +36,7 @@ sh installation.sh
 
 **Then to run you do:**
 
-**bash From_fastq_pod5_predict_DragonRNA_for_github.sh  <input.fastq> <input.pod5> <output_directory> <N_threads> <directory_of_scripts>"**
+**bash From_fastq_pod5_predict_RNA_for_github.sh  <input.fastq> <input.pod5> <output_directory> <N_threads> <directory_of_scripts>"**
 
 
 
@@ -56,7 +56,7 @@ directory_of_scripts = The directory in which we installed NanoporeLong5 scripts
 
 **For Example:**
 
-bash /media/data2/hkrupkin/code/nanopore_related/Custom_code/Single_Script_all_DragonRNA_analysis_up_to_plotting/All_scripts_for_github_upload/From_fastq_pod5_predict_DragonRNA_for_github.sh /media/data2/hkrupkin/nanopore/detecting_dragonRNA/My_own_nanopore_run/sequencing_run_nanopore/all_fastq_files_uncompressed_top100_reads.fastq /media/data2/hkrupkin/nanopore/detecting_dragonRNA/My_own_nanopore_run/sequencing_run_nanopore/pod_5_files_all/all_pod5_files/merged.pod5 /media/data2/hkrupkin/code/nanopore_related/Custom_code/Single_Script_all_DragonRNA_analysis_up_to_plotting/Finding_RNAs_by_Kmer/Test_run_examination_entire_file_v5_100_reads 20 /media/data2/hkrupkin/code/nanopore_related/Custom_code/Single_Script_all_DragonRNA_analysis_up_to_plotting/All_scripts_for_github_upload
+bash /media/data2/hkrupkin/code/nanopore_related/Custom_code/Single_Script_all_RNA_analysis_up_to_plotting/All_scripts_for_github_upload/From_fastq_pod5_predict_RNA_for_github.sh /media/data2/hkrupkin/nanopore/detecting_RNA/My_own_nanopore_run/sequencing_run_nanopore/all_fastq_files_uncompressed_top100_reads.fastq /media/data2/hkrupkin/nanopore/detecting_RNA/My_own_nanopore_run/sequencing_run_nanopore/pod_5_files_all/all_pod5_files/merged.pod5 /media/data2/hkrupkin/code/nanopore_related/Custom_code/Single_Script_all_RNA_analysis_up_to_plotting/Finding_RNAs_by_Kmer/Test_run_examination_entire_file_v5_100_reads 20 /media/data2/hkrupkin/code/nanopore_related/Custom_code/Single_Script_all_RNA_analysis_up_to_plotting/All_scripts_for_github_upload
 
 
 
